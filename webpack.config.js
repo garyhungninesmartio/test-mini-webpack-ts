@@ -11,6 +11,9 @@ module.exports = {
     library: "mini-webpack-ts-project",
     libraryTarget: "umd",
   },
+  resolve: {
+    extensions: ['.ts', '.js', '.json']
+  },
   mode: "production",
   entry: {
     main: path.resolve(__dirname, "src/index.ts"),
