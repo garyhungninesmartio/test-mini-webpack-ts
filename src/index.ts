@@ -1,0 +1,1 @@
+console.log("Our mini webpack-ts project");
