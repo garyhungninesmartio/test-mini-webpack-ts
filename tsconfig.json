@@ -3,7 +3,7 @@
     "target": "ES6",
     "module": "CommonJS",
     "esModuleInterop": true,
-    "baseUrl": "./",
+    "baseUrl": ".",
     "paths": {
       "~/*": ["src/*"]
     }
