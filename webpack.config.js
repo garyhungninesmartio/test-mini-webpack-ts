@@ -12,7 +12,10 @@ module.exports = {
     libraryTarget: "umd",
   },
   resolve: {
-    extensions: ['.ts', '.js', '.json']
+    extensions: ['.ts', '.js', '.json'],
+    alias: {
+      "~" : path.resolve(__dirname, "src")
+    }
   },
   mode: "production",
   entry: {
